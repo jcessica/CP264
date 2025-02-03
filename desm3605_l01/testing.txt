@@ -1,0 +1,30 @@
+jessica_folder@Pixel-8 desm3605_l01 % ./a.out 
+Program Parameters:
+
+  No user parameters specified.
+
+  Argument 0 is a system default, and is always passed to the main program.
+  Argument 0 is the path and name of the executable file.
+
+  argc: 1
+  argv[0] = "./a.out"
+jessica_folder@Pixel-8 desm3605_l01 % ./a.out A 1 "some strings"                                             
+Program Parameters:
+
+  argc: 4
+
+  argv[0] = "./a.out"
+  argv[1] = "A"
+  argv[2] = "1"
+  argv[3] = "some strings"
+jessica_folder@Pixel-8 desm3605_l01 % ./a.out B 2 some strings
+Program Parameters:
+
+  argc: 5
+
+  argv[0] = "./a.out"
+  argv[1] = "B"
+  argv[2] = "2"
+  argv[3] = "some"
+  argv[4] = "strings"
+jessica_folder@Pixel-8 desm3605_l01 % 
